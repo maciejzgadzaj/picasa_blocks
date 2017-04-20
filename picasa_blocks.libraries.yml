@@ -1,0 +1,9 @@
+albums_block:
+  css:
+    theme:
+      css/albums-block.css: {}
+
+album_block:
+  css:
+    theme:
+      css/album-block.css: {}

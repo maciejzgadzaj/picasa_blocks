@@ -1,0 +1,5 @@
+picasa_blocks_settings:
+  title: Picasa Blocks
+  description: 'Picasa Blocks configuration.'
+  route_name: picasa_blocks.settings
+  parent: system.admin_config_media

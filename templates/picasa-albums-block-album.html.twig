@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Default theme implementation of an album.
+ *
+ * Available variables:
+ * - album: The album data array returned from the request.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="picasa-album">
+    <div class="picasa-album-thumbnail">
+        <a href="{{ album.url }}" title="{{ album.title }}">
+            <img src="{{ album.cover.thumbnail.url }}" title="{{ album.cover.title }}" alt="{{ album.cover.title }}" width="{{ album.cover.thumbnail.width }}" height="{{ album.cover.thumbnail.height }}" />
+        </a>
+    </div>
+    <div class="picasa-album-title">
+        <a href="{{ album.url }}" title="{{ album.title }}">
+            {{ album.title }}
+        </a>
+    </div>
+</div>

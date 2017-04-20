@@ -1,0 +1,7 @@
+picasa_blocks.settings:
+  path: '/admin/config/media/picasa_blocks'
+  defaults:
+    _form: '\Drupal\picasa_blocks\Form\SettingsForm'
+    _title: 'Picasa Blocks'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * The module file for commit_block module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function picasa_blocks_theme() {
+  return array(
+    'picasa_albums_block_album' => array(
+      'variables' => [
+        'album' => NULL,
+      ],
+      'template' => 'picasa-albums-block-album',
+    ),
+    'picasa_album_block_photo' => array(
+      'variables' => [
+        'photo' => NULL,
+      ],
+      'template' => 'picasa-album-block-photo',
+    ),
+  );
+}
